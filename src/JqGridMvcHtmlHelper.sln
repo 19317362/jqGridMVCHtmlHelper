@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JqGridMvcHtmlHelper", "JqGridMvcHtmlHelper\JqGridMvcHtmlHelper.csproj", "{378CE5D7-3376-4C98-94F1-6A660AC6D00F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JqGridMvcHtmlHelper.Examples", "JqGridMvcHtmlHelper.Examples\JqGridMvcHtmlHelper.Examples.csproj", "{546E7599-E0A6-430A-A159-BDBD2FBE9CF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{378CE5D7-3376-4C98-94F1-6A660AC6D00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{378CE5D7-3376-4C98-94F1-6A660AC6D00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{378CE5D7-3376-4C98-94F1-6A660AC6D00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{546E7599-E0A6-430A-A159-BDBD2FBE9CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{546E7599-E0A6-430A-A159-BDBD2FBE9CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{546E7599-E0A6-430A-A159-BDBD2FBE9CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{546E7599-E0A6-430A-A159-BDBD2FBE9CF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

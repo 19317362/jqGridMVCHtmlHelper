@@ -1,0 +1,8 @@
+﻿@using JqGridMvcHtmlHelper
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    @Html.Raw(JqGridHelper.Grid("grid").WithCaption("Sample Grid"))
+</div>

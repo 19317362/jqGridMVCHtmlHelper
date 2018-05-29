@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using JqGridMvcHtmlHelper.Models;
 
 namespace JqGridMvcHtmlHelper
 {
@@ -17,11 +18,9 @@ namespace JqGridMvcHtmlHelper
             return MvcHtmlString.Create(htmlBuilder.ToString());
         }
 
-        public static IHtmlString Grid(string gridId)
+        public static Grid Grid(string gridId)
         {
-            var htmlBuilder = new StringBuilder();
-            htmlBuilder.AppendLine(string.Empty);
-            return MvcHtmlString.Create(htmlBuilder.ToString());
+            return new Grid(gridId);
         }
     }
 }

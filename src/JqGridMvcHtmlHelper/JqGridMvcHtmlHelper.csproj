@@ -65,34 +65,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Column.cs" />
-    <Compile Include="Direction.cs" />
-    <Compile Include="Editoptions.cs" />
-    <Compile Include="Editrules.cs" />
-    <Compile Include="Edittype.cs" />
+    <Compile Include="Models\Column.cs" />
+    <Compile Include="Enums\Direction.cs" />
+    <Compile Include="Models\Editoptions.cs" />
+    <Compile Include="Models\Editrules.cs" />
+    <Compile Include="Enums\Edittype.cs" />
     <Compile Include="Enums\DataType.cs" />
     <Compile Include="Enums\MethodType.cs" />
+    <Compile Include="Enums\SortOrder.cs" />
     <Compile Include="Extensions.cs" />
-    <Compile Include="Formatoptions.cs" />
-    <Compile Include="Formoptions.cs" />
-    <Compile Include="Grid.cs" />
-    <Compile Include="GridData.cs" />
-    <Compile Include="GridFluent.cs" />
-    <Compile Include="GrpOperation.cs" />
-    <Compile Include="JqGrid.cs" />
-    <Compile Include="JqGridFilter.cs" />
+    <Compile Include="Models\Formatoptions.cs" />
+    <Compile Include="Models\Formoptions.cs" />
+    <Compile Include="Models\Grid.cs" />
+    <Compile Include="Models\GridData.cs" />
+    <Compile Include="Models\GridFluent.cs" />
+    <Compile Include="Models\GrpOperation.cs" />
+    <Compile Include="Models\JqGrid.cs" />
+    <Compile Include="Models\JqGridFilter.cs" />
     <Compile Include="JqGridHelper.cs" />
-    <Compile Include="JqGridResult.cs" />
-    <Compile Include="JqGridRule.cs" />
-    <Compile Include="NavGrid.cs" />
+    <Compile Include="Models\JqGridResult.cs" />
+    <Compile Include="Models\JqGridRule.cs" />
+    <Compile Include="Models\NavGrid.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Row.cs" />
-    <Compile Include="WhereOperation.cs" />
+    <Compile Include="Models\Row.cs" />
+    <Compile Include="Models\WhereOperation.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources.resx">

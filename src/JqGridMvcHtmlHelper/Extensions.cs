@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using JqGridMvcHtmlHelper.Models;
 
 namespace JqGridMvcHtmlHelper
 {
@@ -9,7 +10,6 @@ namespace JqGridMvcHtmlHelper
     {
         public static IQueryable<T> Where<T>(this IQueryable<T> query, JqGridRule[] rules, GrpOperation groupOp)
         {
-            LambdaExpression lambda;
             Expression resultCondition = null;
 
             var parameter = Expression.Parameter(query.ElementType, "p");
@@ -101,7 +101,7 @@ namespace JqGridMvcHtmlHelper
                 }
             }
 
-            lambda = Expression.Lambda(resultCondition, parameter);
+            var lambda = Expression.Lambda(resultCondition, parameter);
 
             var result = Expression.Call(
                 typeof(Queryable),
